@@ -1,143 +1,140 @@
-<footer class="bg3 p-t-75 p-b-32">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-lg-3 p-b-50">
-					<h4 class="stext-301 cl0 p-b-30">
-						Categories
-					</h4>
+<div id="footer">
+    <!-- #footer Begin -->
+    <div class="container">
+        <!-- container Begin -->
+        <div class="row">
+            <!-- row Begin -->
+            <div class="col-sm-6 col-md-3">
+                <!-- col-sm-6 col-md-3 Begin -->
 
-					<ul>
-						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Women
-							</a>
-						</li>
+                <h4>Pages</h4>
 
-						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Men
-							</a>
-						</li>
+                <ul>
+                    <!-- ul Begin -->
+                    <li><a href="cart.php">Shopping Cart</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="shop.php">Shop</a></li>
+                    <li><a href="checkout.php">My Account</a></li>
+                </ul><!-- ul Finish -->
 
-						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Shoes
-							</a>
-						</li>
+                <hr>
 
-						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Watches
-							</a>
-						</li>
-					</ul>
-				</div>
+                <h4>User Section</h4>
 
-				<div class="col-sm-6 col-lg-3 p-b-50">
-					<h4 class="stext-301 cl0 p-b-30">
-						Help
-					</h4>
+                <ul>
+                    <!-- ul Begin -->
+                    <li><a href="checkout.php">Login</a></li>
+                    <li><a href="customer_register.php">Register</a></li>
+                </ul><!-- ul Finish -->
 
-					<ul>
-						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Track Order
-							</a>
-						</li>
+                <hr class="hidden-md hidden-lg hidden-sm">
 
-						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Returns 
-							</a>
-						</li>
+            </div><!-- col-sm-6 col-md-3 Finish -->
 
-						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Shipping
-							</a>
-						</li>
+            <div class="com-sm-6 col-md-3">
+                <!-- col-sm-6 col-md-3 Begin -->
 
-						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								FAQs
-							</a>
-						</li>
-					</ul>
-				</div>
+                <h4>Top Products Categories</h4>
 
-				<div class="col-sm-6 col-lg-3 p-b-50">
-					<h4 class="stext-301 cl0 p-b-30">
-						GET IN TOUCH
-					</h4>
+                <ul>
+                    <!-- ul Begin -->
+                    <li><a href="#">Jackets</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Coats</a></li>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">T-Shirts</a></li>
+                </ul><!-- ul Finish -->
 
-					<p class="stext-107 cl7 size-201">
-						Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879
-					</p>
+                <hr class="hidden-md hidden-lg">
 
-					<div class="p-t-27">
-						<a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
-							<i class="fa fa-facebook"></i>
-						</a>
+            </div><!-- col-sm-6 col-md-3 Finish -->
 
-						<a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
-							<i class="fa fa-instagram"></i>
-						</a>
+            <div class="col-sm-6 col-md-3">
+                <!-- col-sm-6 col-md-3 Begin -->
 
-						<a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
-							<i class="fa fa-pinterest-p"></i>
-						</a>
-					</div>
-				</div>
+                <h4>Find Us</h4>
 
-				<div class="col-sm-6 col-lg-3 p-b-50">
-					<h4 class="stext-301 cl0 p-b-30">
-						Newsletter
-					</h4>
+                <p>
+                    <!-- p Start -->
 
-					<form>
-						<div class="wrap-input1 w-full p-b-4">
-							<input class="input1 bg-none plh1 stext-107 cl7" type="text" name="email" placeholder="email@example.com">
-							<div class="focus-input1 trans-04"></div>
-						</div>
+                    <strong>M-Dev Media inc.</strong>
+                    <br />Cibubur
+                    <br />Ciracas
+                    <br />0818-0683-3157
+                    <br />mugianto4th@gmail.com
+                    <br /><strong>MrGhie</strong>
 
-						<div class="p-t-18">
-							<button class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04">
-								Subscribe
-							</button>
-						</div>
-					</form>
-				</div>
-			</div>
+                </p><!-- p Finish -->
 
-			<div class="p-t-40">
-				<div class="flex-c-m flex-w p-b-18">
-					<a href="#" class="m-all-1">
-						<img src="images/icons/icon-pay-01.png" alt="ICON-PAY">
-					</a>
+                <a href="contact.php">Check Our Contact Page</a>
 
-					<a href="#" class="m-all-1">
-						<img src="images/icons/icon-pay-02.png" alt="ICON-PAY">
-					</a>
+                <hr class="hidden-md hidden-lg">
 
-					<a href="#" class="m-all-1">
-						<img src="images/icons/icon-pay-03.png" alt="ICON-PAY">
-					</a>
+            </div><!-- col-sm-6 col-md-3 Finish -->
 
-					<a href="#" class="m-all-1">
-						<img src="images/icons/icon-pay-04.png" alt="ICON-PAY">
-					</a>
+            <div class="col-sm-6 col-md-3">
 
-					<a href="#" class="m-all-1">
-						<img src="images/icons/icon-pay-05.png" alt="ICON-PAY">
-					</a>
-				</div>
+                <h4>Get The News</h4>
 
-				<p class="stext-107 cl6 txt-center">
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright ©<script>document.write(new Date().getFullYear());</script>2019 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Minh Hieu</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                <p class="text-muted">
+                    Dont miss our latest update products.
+                </p>
 
-				</p>
-			</div>
-		</div>
-	</footer>
+                <form action="" method="post">
+                    <!-- form begin -->
+                    <div class="input-group">
+                        <!-- input-group begin -->
+
+                        <input type="text" class="form-control" name="email">
+
+                        <span class="input-group-btn">
+                            <!-- input-group-btn begin -->
+
+                            <input type="submit" value="subscribe" class="btn btn-default">
+
+                        </span><!-- input-group-btn Finish -->
+
+                    </div><!-- input-group Finish -->
+                </form><!-- form Finish -->
+
+                <hr>
+
+                <h4>Keep In Touch</h4>
+
+                <p class="social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-google-plus"></a>
+                    <a href="#" class="fa fa-envelope"></a>
+                </p>
+
+            </div>
+        </div><!-- row Finish -->
+    </div><!-- container Finish -->
+</div><!-- #footer Finish -->
+
+
+<div id="copyright">
+    <!-- #copyright Begin -->
+    <div class="container">
+        <!-- container Begin -->
+        <div class="col-md-6">
+            <!-- col-md-6 Begin -->
+
+            <p class="pull-left">&copy; 2018 M-Dev Store All Rights Reserve</p>
+
+        </div><!-- col-md-6 Finish -->
+        <div class="col-md-6">
+            <!-- col-md-6 Begin -->
+
+            <p class="pull-right">Theme by: <a href="#">MrGhie</a></p>
+
+        </div><!-- col-md-6 Finish -->
+    </div><!-- container Finish -->
+</div><!-- #copyright Finish -->
+<script src="js\jquery-3.4.1.min.js"></script>
+<script src="js\bootstrap-337.min.js"></script>
+</body>
+
+</html>
