@@ -1,272 +1,264 @@
 <?php
-include("includes\header.php")
+include("includes\header.php");
 ?>
-<div id="content" class="container">
+<div id="content">
+    <!-- #content Begin -->
+    <div class="container">
         <!-- container Begin -->
+        <div class="col-md-12">
+            <!-- col-md-12 Begin -->
 
-        <div class="row">
-            <!-- row Begin -->
-
-            <div class="col-sm-6 col-md-4 col-lg-3 ">
-                <!-- col-sm-4 col-sm-6 single Begin -->
-
-                <div class="product">
-                    <!-- product Begin -->
-
-                    <a href="details.php">
-
-                        <img class="img-responsive" src="admin_area\product_images\product-01.jpg" alt="product-01">
-                    </a>
-                    <div class="text">
-                        <!-- text Begin -->
-                        <div class="name-product">
-                            <a href="details.php">Esprit Ruffle Shirt</a>
-                        </div>
-                        <p class="stext-105 cl3">350$</p>
-                        <p class="button">
-                            <a href="details.php" class="btn btn-default">View Details</a>
-                            <a href="details.php" class="btn btn-primary">
-                                <i class="fa fa-shopping-cart">
-                                    Add To Cart
-                                </i>
-                            </a>
-                        </p>
-
-                    </div> <!-- text End -->
-
-                </div> <!-- product End -->
-
-
-            </div> <!-- col-sm-4 col-sm-6 single End -->
-            <div class="col-sm-6 col-md-4 col-lg-3 ">
-                <!-- col-sm-4 col-sm-6 single Begin -->
-
-                <div class="product">
-                    <!-- product Begin -->
+            <ul class="breadcrumb">
+                <!-- breadcrumb Begin -->
+                <li>
+                    <a href="index.php">Home</a>
+                </li>
+                <li>
+                    Shop
+                </li>
+            </ul><!-- breadcrumb Finish -->
 
-                    <a href="details.php">
-                
-                        <img class="img-responsive" src="admin_area\product_images\product-02.jpg" alt="product-02">
-                    </a>
-                    <div class="text">
-                        <!-- text Begin -->
-
-                        <div class="name-product">
-                            <a href="details.php">Esprit Ruffle Shirt</a>
-                        </div>
-                        <p class="stext-105 cl3">350$</p>
-                        <p class="button">
-                            <a href="details.php" class="btn btn-default">View Details</a>
-                            <a href="details.php" class="btn btn-primary">
-                                <i class="fa fa-shopping-cart">
-                                    Add To Cart
-                                </i>
-                            </a>
-                        </p>
-
-                    </div> <!-- text End -->
-
-                </div> <!-- product End -->
-
-
-            </div> <!-- col-sm-4 col-sm-6 single End -->
-            <div class="col-sm-6 col-md-4 col-lg-3 ">
-                <!-- col-sm-4 col-sm-6 single Begin -->
-
-                <div class="product">
-                    <!-- product Begin -->
+        </div><!-- col-md-12 Finish -->
 
-                    <a href="details.php">
-
-                        <img class="img-responsive" src="admin_area\product_images\product-03.jpg" alt="product-03">
-                    </a>
-                    <div class="text">
-                        <!-- text Begin -->
-
-                        <div class="name-product">
-                            <a href="details.php">Esprit Ruffle Shirt</a>
-                        </div>
-                        <p class="stext-105 cl3">350$</p>
-                        <p class="button">
-                            <a href="details.php" class="btn btn-default">View Details</a>
-                            <a href="details.php" class="btn btn-primary">
-                                <i class="fa fa-shopping-cart">
-                                    Add To Cart
-                                </i>
-                            </a>
-                        </p>
-
-                    </div> <!-- text End -->
-
-                </div> <!-- product End -->
-
-
-            </div> <!-- col-sm-4 col-sm-6 single End -->
-            <div class="col-sm-6 col-md-4 col-lg-3 ">
-                <!-- col-sm-4 col-sm-6 single Begin -->
+        <div class="col-md-3 sticky">
+            <!-- col-md-3 Begin -->
 
-                <div class="product">
-                    <!-- product Begin -->
+            <?php
 
-                    <a href="details.php">
+            include("includes/sidebar.php");
 
-                        <img class="img-responsive" src="admin_area\product_images\product-04.jpg" alt="product-04">
-                    </a>
-                    <div class="text">
-                        <!-- text Begin -->
+            ?>
 
-                        <div class="name-product">
-                            <a href="details.php">Esprit Ruffle Shirt</a>
-                        </div>
-                        <p class="stext-105 cl3">350$</p>
-                        <p class="button">
-                            <a href="details.php" class="btn btn-default">View Details</a>
-                            <a href="details.php" class="btn btn-primary">
-                                <i class="fa fa-shopping-cart">
-                                    Add To Cart
-                                </i>
-                            </a>
-                        </p>
-
-                    </div> <!-- text End -->
+        </div><!-- col-md-3 Finish -->
+        <div class="col-md-9">
+            <!-- col-md-9 Begin -->
+            <div class="row">
+                <!-- row Begin -->
+                <div class="col-md-4 col-sm-6 center-responsive">
+                    <!-- col-md-4 col-sm-6 center-responsive Begin -->
 
-                </div> <!-- product End -->
+                    <div class="product">
+                        <!-- product Begin -->
 
-
-            </div> <!-- col-sm-4 col-sm-6 single End -->
-            <div class="col-sm-6 col-md-4 col-lg-3 ">
-                <!-- col-sm-4 col-sm-6 single Begin -->
+                        <a href="details.php">
 
-                <div class="product">
-                    <!-- product Begin -->
+                            <img class="img-responsive" src="admin_area\product_images\product-01.jpg" alt="product-01">
 
-                    <a href="details.php">
+                        </a>
 
-                        <img class="img-responsive" src="admin_area\product_images\product-05.jpg" alt="product-05">
-                    </a>
-                    <div class="text">
-                        <!-- text Begin -->
+                        <div class="text">
+                            <!-- text Begin -->
 
-                        <div class="name-product">
-                            <a href="details.php">Esprit Ruffle Shirt</a>
-                        </div>
-                        <p class="stext-105 cl3">350$</p>
-                        <p class="button">
-                            <a href="details.php" class="btn btn-default">View Details</a>
-                            <a href="details.php" class="btn btn-primary">
-                                <i class="fa fa-shopping-cart">
-                                    Add To Cart
-                                </i>
-                            </a>
-                        </p>
-
-                    </div> <!-- text End -->
+                            <div class="name-product">
+                                <a href="details.php">Esprit Ruffle Shirt</a>
+                            </div>
+                            <p class="stext-105 cl3">350$</p>
+                            <p class="button">
+                            <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal">View Details</a>
+                                <a href="details.php" class="btn btn-primary">
+                                    <i class="fa fa-shopping-cart">
+                                        Add To Cart
+                                    </i>
+                                </a>
+                            </p>
 
-                </div> <!-- product End -->
+                        </div> <!-- text End -->
 
+                    </div><!-- product Finish -->
 
-            </div> <!-- col-sm-4 col-sm-6 single End -->
-            <div class="col-sm-6 col-md-4 col-lg-3 ">
-                <!-- col-sm-4 col-sm-6 single Begin -->
+                </div><!-- col-md-4 col-sm-6 center-responsive Finish -->
+                <div class="col-md-4 col-sm-6 center-responsive">
+                    <!-- col-md-4 col-sm-6 center-responsive Begin -->
 
-                <div class="product">
-                    <!-- product Begin -->
+                    <div class="product">
+                        <!-- product Begin -->
 
-                    <a href="details.php">
+                        <a href="details.php">
 
-                        <img class="img-responsive" src="admin_area\product_images\product-06.jpg" alt="product-06">
-                    </a>
-                    <div class="text">
-                        <!-- text Begin -->
+                            <img class="img-responsive" src="admin_area\product_images\product-02.jpg" alt="product-02">
 
-                        <div class="name-product">
-                            <a href="details.php">Esprit Ruffle Shirt</a>
-                        </div>
-                        <p class="stext-105 cl3">350$</p>
-                        <p class="button">
-                            <a href="details.php" class="btn btn-default">View Details</a>
-                            <a href="details.php" class="btn btn-primary">
-                                <i class="fa fa-shopping-cart">
-                                    Add To Cart
-                                </i>
-                            </a>
-                        </p>
+                        </a>
 
-                    </div> <!-- text End -->
+                        <div class="text">
+                            <!-- text Begin -->
 
-                </div> <!-- product End -->
+                            <div class="name-product">
+                                <a href="details.php">Esprit Ruffle Shirt</a>
+                            </div>
+                            <p class="stext-105 cl3">350$</p>
+                            <p class="button">
+                            <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal">View Details</a>
+                                <a href="details.php" class="btn btn-primary">
+                                    <i class="fa fa-shopping-cart">
+                                        Add To Cart
+                                    </i>
+                                </a>
+                            </p>
 
+                        </div> <!-- text End -->
 
-            </div> <!-- col-sm-4 col-sm-6 single End -->
-            <div class="col-sm-6 col-md-4 col-lg-3 ">
-                <!-- col-sm-4 col-sm-6 single Begin -->
+                    </div><!-- product Finish -->
 
-                <div class="product">
-                    <!-- product Begin -->
+                </div><!-- col-md-4 col-sm-6 center-responsive Finish -->
+                <div class="col-md-4 col-sm-6 center-responsive">
+                    <!-- col-md-4 col-sm-6 center-responsive Begin -->
 
-                    <a href="details.php">
+                    <div class="product">
+                        <!-- product Begin -->
 
-                        <img class="img-responsive" src="admin_area\product_images\product-07.jpg" alt="product-07">
-                    </a>
-                    <div class="text">
-                        <!-- text Begin -->
+                        <a href="details.php">
 
-                        <div class="name-product">
-                            <a href="details.php">Esprit Ruffle Shirt</a>
-                        </div>
-                        <p class="stext-105 cl3">350$</p>
-                        <p class="button">
-                            <a href="details.php" class="btn btn-default">View Details</a>
-                            <a href="details.php" class="btn btn-primary">
-                                <i class="fa fa-shopping-cart">
-                                    Add To Cart
-                                </i>
-                            </a>
-                        </p>
+                            <img class="img-responsive" src="admin_area\product_images\product-03.jpg" alt="product-03">
 
-                    </div> <!-- text End -->
+                        </a>
 
-                </div> <!-- product End -->
+                        <div class="text">
+                            <!-- text Begin -->
 
+                            <div class="name-product">
+                                <a href="details.php">Esprit Ruffle Shirt</a>
+                            </div>
+                            <p class="stext-105 cl3">350$</p>
+                            <p class="button">
+                            <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal">View Details</a>
+                                <a href="details.php" class="btn btn-primary">
+                                    <i class="fa fa-shopping-cart">
+                                        Add To Cart
+                                    </i>
+                                </a>
+                            </p>
 
-            </div> <!-- col-sm-4 col-sm-6 single End -->
-            <div class="col-sm-6 col-md-4 col-lg-3 ">
-                <!-- col-sm-4 col-sm-6 single Begin -->
+                        </div> <!-- text End -->
 
-                <div class="product">
-                    <!-- product Begin -->
+                    </div><!-- product Finish -->
 
-                    <a href="details.php">
+                </div><!-- col-md-4 col-sm-6 center-responsive Finish -->
+                <div class="col-md-4 col-sm-6 center-responsive">
+                    <!-- col-md-4 col-sm-6 center-responsive Begin -->
 
-                        <img class="img-responsive" src="admin_area\product_images\product-08.jpg" alt="product-08">
-                    </a>
-                    <div class="text">
-                        <!-- text Begin -->
+                    <div class="product">
+                        <!-- product Begin -->
 
-                        <div class="name-product">
-                            <a href="details.php">Esprit Ruffle Shirt</a>
-                        </div>
-                        <p class="stext-105 cl3">350$</p>
-                        <p class="button">
-                            <a href="details.php" class="col-sm-6 btn btn-default">View Details</a>
-                            <a href="details.php" class="col-sm-6 btn btn-primary">
-                                <i class="fa fa-shopping-cart">
-                                    Add To Cart
-                                </i>
-                            </a>
-                        </p>
+                        <a href="details.php">
 
-                    </div> <!-- text End -->
+                            <img class="img-responsive" src="admin_area\product_images\product-04.jpg" alt="product-04">
 
-                </div> <!-- product End -->
+                        </a>
 
+                        <div class="text">
+                            <!-- text Begin -->
 
-            </div> <!-- col-sm-4 col-sm-6 single End -->
+                            <div class="name-product">
+                                <a href="details.php">Esprit Ruffle Shirt</a>
+                            </div>
+                            <p class="stext-105 cl3">350$</p>
+                            <p class="button">
+                                <a href="details.php" class="btn btn-default">View Details</a>
+                                <a href="details.php" class="btn btn-primary">
+                                    <i class="fa fa-shopping-cart">
+                                        Add To Cart
+                                    </i>
+                                </a>
+                            </p>
 
-        </div> <!-- row End -->
+                        </div> <!-- text End -->
 
-    </div> <!-- container End -->
+                    </div><!-- product Finish -->
 
-    <?php
-    include("includes/footer.php");
-    ?>
+                </div><!-- col-md-4 col-sm-6 center-responsive Finish -->
+                <div class="col-md-4 col-sm-6 center-responsive">
+                    <!-- col-md-4 col-sm-6 center-responsive Begin -->
+
+                    <div class="product">
+                        <!-- product Begin -->
+
+                        <a href="details.php">
+
+                            <img class="img-responsive" src="admin_area\product_images\product-05.jpg" alt="product-05">
+
+                        </a>
+
+                        <div class="text">
+                            <!-- text Begin -->
+
+                            <div class="name-product">
+                                <a href="details.php">Esprit Ruffle Shirt</a>
+                            </div>
+                            <p class="stext-105 cl3">350$</p>
+                            <p class="button">
+                                <a href="details.php" class="btn btn-default">View Details</a>
+                                <a href="details.php" class="btn btn-primary">
+                                    <i class="fa fa-shopping-cart">
+                                        Add To Cart
+                                    </i>
+                                </a>
+                            </p>
+
+                        </div> <!-- text End -->
+
+                    </div><!-- product Finish -->
+
+                </div><!-- col-md-4 col-sm-6 center-responsive Finish -->
+                <div class="col-md-4 col-sm-6 center-responsive">
+                    <!-- col-md-4 col-sm-6 center-responsive Begin -->
+
+                    <div class="product">
+                        <!-- product Begin -->
+
+                        <a href="details.php">
+
+                            <img class="img-responsive" src="admin_area\product_images\product-06.jpg" alt="product-06">
+
+                        </a>
+
+                        <div class="text">
+                            <!-- text Begin -->
+
+                            <h3>
+                                <a href="details.php">
+                                    M-Dev Woman T-Shirt
+                                </a>
+                            </h3>
+
+                            <p class="price">$30</p>
+
+                            <p class="button">
+
+                                <a href="details.php" class="btn btn-default">View Details</a>
+
+                                <a href="details.php" class="btn btn-primary">
+
+                                    <i class="fa fa-shopping-cart">
+                                        Add To Cart
+                                    </i>
+
+                                </a>
+
+                            </p>
+
+                        </div><!-- text Finish -->
+
+                    </div><!-- product Finish -->
+
+                </div><!-- col-md-4 col-sm-6 center-responsive Finish -->
+            </div><!-- row Finish -->
+
+            <center>
+                <ul class="pagination">
+                    <li class="active;"><a href="#">First Page</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">Last Page</a></li>
+                </ul>
+            </center>
+
+        </div><!-- col-md-9 Finish -->
+
+    </div><!-- container Finish -->
+</div><!-- #content Finish -->
+<?php
+include("includes/footer.php");
+?>

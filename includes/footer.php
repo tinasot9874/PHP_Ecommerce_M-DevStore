@@ -1,3 +1,9 @@
+<?php
+include("includes/details_modal.php");
+?>
+
+
+<footer>
 <div id="footer">
     <!-- #footer Begin -->
     <div class="container">
@@ -133,6 +139,7 @@
         </div><!-- col-md-6 Finish -->
     </div><!-- container Finish -->
 </div><!-- #copyright Finish -->
+</footer>
 <script src="js\jquery-3.4.1.min.js"></script>
 <script src="js\bootstrap-337.min.js"></script>
 </body>

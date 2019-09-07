@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="styles/bootstrap-337.min.css">
     <link rel="stylesheet" href="font-awsome\css\font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
 </head>
 
@@ -144,30 +146,31 @@
                     </button> <!-- btn btn-primary navbar-btn End -->
                 </div> <!-- navbar-collapse collapse right End -->
 
-                <div class="collapse clearfix" id="search">
-                    <!-- collapse clearfix Begin -->
 
-                    <form method="get" action="result.php" class="navbar-form">
-                        <!-- navbar-form Begin -->
-
-                        <div class="input-group">
-                            <!-- input-group Begin -->
-
-                            <input type="text" class="form-control" placeholder="Search" name="user_query" required>
-                            <span class="input-group-btn">
-                                <button type="submit" name="searh" value="Search" class="btn btn-primary">
-                                    <!-- btn btn-primary Begin -->
-                                    <i class="fa fa-search"></i>
-
-                                </button> <!-- btn btn-primary Begin -->
-                            </span>
-
-                        </div> <!-- input-group End -->
-
-                    </form> <!-- navbar-form End -->
-
-                </div> <!-- "collapse clearfix End -->
             </div> <!-- Navbar-collapse End -->
+            <div class="collapse clearfix" id="search">
+                <!-- collapse clearfix Begin -->
+
+                <form method="get" action="result.php" class="navbar-form">
+                    <!-- navbar-form Begin -->
+
+                    <div class="input-group">
+                        <!-- input-group Begin -->
+
+                        <input type="text" class="form-control" placeholder="Search" name="user_query" required>
+                        <span class="input-group-btn">
+                            <button type="submit" name="searh" value="Search" class="btn btn-primary">
+                                <!-- btn btn-primary Begin -->
+                                <i class="fa fa-search"></i>
+
+                            </button> <!-- btn btn-primary Begin -->
+                        </span>
+
+                    </div> <!-- input-group End -->
+
+                </form> <!-- navbar-form End -->
+
+            </div> <!-- "collapse clearfix End -->
 
         </div> <!-- Navbar container End -->
 

@@ -90,7 +90,7 @@ include("includes\header.php");
 
                         </a>
                     </h3>
-                    <p>We know to provide the best posible service ever</p>
+                    <p>We know to provide the best posible service ever!</p>
 
                 </div> <!-- box same-heigt End -->
 
@@ -192,8 +192,8 @@ include("includes\header.php");
                     </div>
                     <p class="stext-105 cl3">350$</p>
                     <p class="button">
-                        <a href="details.php" class="btn btn-default">View Details</a>
-                        <a href="details.php" class="btn btn-primary">
+                        <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal">View Details</a>
+                        <a href="#" class="btn btn-primary">
                             <i class="fa fa-shopping-cart">
                                 Add To Cart
                             </i>
@@ -224,8 +224,8 @@ include("includes\header.php");
                     </div>
                     <p class="stext-105 cl3">350$</p>
                     <p class="button">
-                        <a href="details.php" class="btn btn-default">View Details</a>
-                        <a href="details.php" class="btn btn-primary">
+                        <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal">View Details</a>
+                        <a href="#" class="btn btn-primary">
                             <i class="fa fa-shopping-cart">
                                 Add To Cart
                             </i>
@@ -434,6 +434,8 @@ include("includes\header.php");
     </div> <!-- row End -->
 
 </div> <!-- container End -->
+
+
 
 <?php
 include("includes/footer.php");
