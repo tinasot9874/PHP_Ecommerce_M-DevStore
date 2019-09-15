@@ -1,6 +1,4 @@
-<?php
-include("includes/details_modal.php");
-?>
+
 
 
 <footer>

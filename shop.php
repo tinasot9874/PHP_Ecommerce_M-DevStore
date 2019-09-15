@@ -20,16 +20,12 @@ include("includes\header.php");
 
         </div><!-- col-md-12 Finish -->
 
-        <div class="col-md-3 sticky">
-            <!-- col-md-3 Begin -->
+        <?php
 
-            <?php
+        include("includes/sidebar.php");
 
-            include("includes/sidebar.php");
+        ?>
 
-            ?>
-
-        </div><!-- col-md-3 Finish -->
         <div class="col-md-9">
             <!-- col-md-9 Begin -->
             <div class="row">
@@ -54,7 +50,7 @@ include("includes\header.php");
                             </div>
                             <p class="stext-105 cl3">350$</p>
                             <p class="button">
-                            <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal">View Details</a>
+                                <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal">View Details</a>
                                 <a href="details.php" class="btn btn-primary">
                                     <i class="fa fa-shopping-cart">
                                         Add To Cart
@@ -87,7 +83,7 @@ include("includes\header.php");
                             </div>
                             <p class="stext-105 cl3">350$</p>
                             <p class="button">
-                            <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal">View Details</a>
+                                <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal">View Details</a>
                                 <a href="details.php" class="btn btn-primary">
                                     <i class="fa fa-shopping-cart">
                                         Add To Cart
@@ -120,7 +116,7 @@ include("includes\header.php");
                             </div>
                             <p class="stext-105 cl3">350$</p>
                             <p class="button">
-                            <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal">View Details</a>
+                                <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal">View Details</a>
                                 <a href="details.php" class="btn btn-primary">
                                     <i class="fa fa-shopping-cart">
                                         Add To Cart
@@ -153,7 +149,9 @@ include("includes\header.php");
                             </div>
                             <p class="stext-105 cl3">350$</p>
                             <p class="button">
-                                <a href="details.php" class="btn btn-default">View Details</a>
+                                <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+                                    Quick View
+                                </a>
                                 <a href="details.php" class="btn btn-primary">
                                     <i class="fa fa-shopping-cart">
                                         Add To Cart
@@ -259,6 +257,7 @@ include("includes\header.php");
 
     </div><!-- container Finish -->
 </div><!-- #content Finish -->
+
 <?php
 include("includes/footer.php");
 ?>

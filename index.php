@@ -192,7 +192,7 @@ include("includes\header.php");
                     </div>
                     <p class="stext-105 cl3">350$</p>
                     <p class="button">
-                        <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal">View Details</a>
+                        <a href="details.php" class="btn btn-default" data-toggle="modal" data-target="#myModal">View Details</a>
                         <a href="#" class="btn btn-primary">
                             <i class="fa fa-shopping-cart">
                                 Add To Cart
