@@ -153,20 +153,11 @@ include("includes\header.php");
 
 <div class="hot-product">
     <!-- hot-product Begin -->
-    <div class="box">
-        <!-- box Begin -->
-        <div class="container">
-            <!-- container Begin -->
-
-            <div class="col-md-12">
-                <!-- col-md-12 Begin -->
-
-                <h2>Our Best Seller Products</h2>
-
-            </div> <!-- col-md-12 End -->
-
-        </div> <!-- container End -->
-    </div> <!-- box End -->
+    <!-- box Begin -->
+    <div class="container" style="margin-bottom: 20px;">
+        <!-- container Begin -->
+        <h2>Our Best Seller Products</h2>
+    </div> <!-- container End -->
 </div> <!-- hot-product End -->
 
 <div id="content" class="container">
