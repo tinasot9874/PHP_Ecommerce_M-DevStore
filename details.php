@@ -39,7 +39,6 @@ include("includes/header.php");
                                 <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
                                 <li data-target="#myCarousel" data-slide-to="1"></li>
                                 <li data-target="#myCarousel" data-slide-to="2"></li>
-                                <li data-target="#myCarousel" data-slide-to="3"></li>
 
                             </ol> <!-- carousel-indicators End -->
 
@@ -78,6 +77,34 @@ include("includes/header.php");
 
                         </div>
                     </div>
+                    <div class="row" id="thumbs">
+                        <!-- row Begin -->
+
+                        <div class="col-xs-4">
+                            <!-- col-xs-4 Begin -->
+                            <a data-target="#myCarousel" data-slide-to="0" href="#" class="thumb">
+                                <!-- thumb Begin -->
+                                <img src="admin_area\product_images\product-detail-01.jpg" alt="product 1" class="img-responsive">
+                            </a><!-- thumb Finish -->
+                        </div><!-- col-xs-4 Finish -->
+
+                        <div class="col-xs-4">
+                            <!-- col-xs-4 Begin -->
+                            <a data-target="#myCarousel" data-slide-to="1" href="#" class="thumb">
+                                <!-- thumb Begin -->
+                                <img src="admin_area\product_images\product-detail-02.jpg" alt="product 2" class="img-responsive">
+                            </a><!-- thumb Finish -->
+                        </div><!-- col-xs-4 Finish -->
+
+                        <div class="col-xs-4">
+                            <!-- col-xs-4 Begin -->
+                            <a data-target="#myCarousel" data-slide-to="2" href="#" class="thumb">
+                                <!-- thumb Begin -->
+                                <img src="admin_area\product_images\product-detail-03.jpg" alt="product 4" class="img-responsive">
+                            </a><!-- thumb Finish -->
+                        </div><!-- col-xs-4 Finish -->
+
+                    </div><!-- row Finish -->
                 </div>
                 <div class="col-sm-6">
                     <!-- col-sm-6 Begin -->
@@ -124,7 +151,12 @@ include("includes/header.php");
                                     </select><!-- form-control Finish -->
                                 </div><!-- col-md-7 Finish -->
                             </div><!-- form-group Finish -->
-                            <p style="color: white" class="text-center bubttons"><button style="background-color:#4FBFA8" class="btn i fa fa-shopping-cart"> Add to cart</button></p>
+                            <p class="text-center"><a href="cart.php" style="text-align: text-center;" class="btn btn-success ">
+                                <i class="fa fa-shopping-cart">
+                                    Add To Cart
+                                </i>
+                            </a>
+                            </p>
                         </form><!-- form-horizontal Finish -->
                     </div><!-- box Finish -->
                 </div><!-- col-sm-6 Finish -->
