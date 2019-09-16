@@ -158,6 +158,7 @@ Theme Ver       : 1.1
         .box {
             background: rgba(103, 117, 214, 0.0);
             margin: 0 0 30px;
+            height: 100%;
             border: 1px solid #e6e6e6;
             box-sizing: border-box;
             padding: 20px;
@@ -356,189 +357,29 @@ Theme Ver       : 1.1
                 margin: 0px auto;
             }
         }
-        /* Modal Details Products Styles */
+        /* Details Products Styles */
         
-        .show-modal1 {
-            visibility: visible;
-            opacity: 1;
+        #content #productMain {
+            margin-bottom: 30px;
         }
         
-        .wrap-modal1 {
-            position: fixed;
-            width: 100%;
-            height: 100vh;
-            top: 0;
-            left: 0;
-            z-index: 9000;
-            overflow: auto;
-            -webkit-transition: all 0.4s;
-            -o-transition: all 0.4s;
-            -moz-transition: all 0.4s;
-            transition: all 0.4s;
-            visibility: hidden;
-            opacity: 0;
+        #content #productMain .description {
+            clear: both;
         }
         
-        .p-b-20 {
-            padding-bottom: 20px;
+        #content #productMain .price {
+            font-size: 30px;
+            font-weight: 300;
+            float: left;
+            margin-top: 30px;
         }
         
-        .p-t-60 {
-            padding-top: 60px;
+        #content #mainImage {
+            box-shadow: 0px 1px 5px rgba(0, 0, 0, .7);
         }
         
-        .container {
-            max-width: 1380px;
-        }
-        
-        @media (max-width: 1600px) {
-            .container {
-                max-width: 1200px;
-            }
-        }
-        
-        .overlay-modal1 {
-            position: fixed;
-            z-index: -1;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            background: #000;
-            opacity: 0.8;
-        }
-        
-        .how-pos3-parent {
-            position: relative;
-        }
-        
-        .bg0 {
-            background-color: #fff;
-        }
-        
-        .p-b-30 {
-            padding-bottom: 30px;
-        }
-        
-        .p-t-60 {
-            padding-top: 60px;
-        }
-        
-        .hov3 {
-            opacity: 0.6;
-        }
-        
-        .how-pos3 {
-            position: absolute;
-            top: -35px;
-            right: 0px;
-        }
-        
-        .trans-04 {
-            -webkit-transition: all 0.4s;
-            -o-transition: all 0.4s;
-            -moz-transition: all 0.4s;
-            transition: all 0.4s;
-        }
-        
-        .wrap-modal1 .how-pos3 .button {
-            outline: none;
-            border: none;
-            background: transparent;
-            cursor: pointer;
-        }
-        
-        .wrap-modal1 .how-pos3 .row {
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-            margin-right: -15px;
-            margin-left: -15px;
-        }
-        
-        .p-b-30,
-        .p-tb-30,
-        .p-all-30 {
-            padding-bottom: 30px;
-        }
-        
-        @media (min-width: 992px) {
-            .col-lg-7 {
-                -ms-flex: 0 0 58.333333%;
-                flex: 0 0 58.333333%;
-                max-width: 58.333333%;
-            }
-        }
-        
-        @media (min-width: 768px) {
-            .col-md-6 {
-                -ms-flex: 0 0 50%;
-                flex: 0 0 50%;
-                max-width: 50%;
-            }
-        }
-        
-        .p-r-30,
-        .p-lr-30,
-        .p-all-30 {
-            padding-right: 30px;
-        }
-        
-        .p-l-25,
-        .p-lr-25,
-        .p-all-25 {
-            padding-left: 25px;
-        }
-        
-        .wrap-slick3 {
-            position: relative;
-        }
-        
-        .flex-sb {
-            justify-content: space-between;
-        }
-        
-        .flex-w {
-            -webkit-flex-wrap: wrap;
-            -moz-flex-wrap: wrap;
-            -ms-flex-wrap: wrap;
-            -o-flex-wrap: wrap;
-            flex-wrap: wrap;
-        }
-        
-        .wrap-slick3-dots {
-            width: 11.111111%;
-        }
-        
-        .wrap-slick3-arrows {
-            position: absolute;
-            z-index: 100;
-            width: 83.333333%;
-            right: 0;
-            top: calc(50% - 20px);
-        }
-        
-        .flex-sb-m {
-            justify-content: space-between;
-            -ms-align-items: center;
-            align-items: center;
-        }
-        
-        .p-r-50,
-        .p-lr-50,
-        .p-all-50 {
-            padding-right: 50px;
-        }
-        
-        .p-t-5,
-        .p-tb-5,
-        .p-all-5 {
-            padding-top: 5px;
-        }
-        
-        .mtext-105 {
-            font-family: Poppins-Regular;
-            font-size: 24px;
-            line-height: 1.5;
+        #content #thumbs a {
+            display: block;
+            box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+            border: 2px solid transparent;
         }

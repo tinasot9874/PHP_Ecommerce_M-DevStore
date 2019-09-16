@@ -81,11 +81,11 @@ include("includes/header.php");
                 </div>
                 <div class="col-sm-6">
                     <!-- col-sm-6 Begin -->
-                    <div class="box same-height headline">
+                    <div class="box">
                         <!-- box Begin -->
                         <h1 class="text-center">Lightweight Jacket</h1>
-                        <h4 class="text-center">$50</h4>
-
+                        <h4 class="price">$50</h4> <br>
+                        <p class="description ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p> <br>
                         <form action="details.php" class="form-horizontal" method="post">
                             <!-- form-horizontal Begin -->
                             <div class="form-group">
@@ -121,32 +121,18 @@ include("includes/header.php");
                                         <option>Small</option>
                                         <option>Medium</option>
                                         <option>Large</option>
-
                                     </select><!-- form-control Finish -->
-
                                 </div><!-- col-md-7 Finish -->
                             </div><!-- form-group Finish -->
-
-
-                            <button type="button" class="btn btn-primary">Check out</button>
-
+                            <p style="color: white" class="text-center bubttons"><button style="background-color:#4FBFA8" class="btn i fa fa-shopping-cart"> Add to cart</button></p>
                         </form><!-- form-horizontal Finish -->
-
-
                     </div><!-- box Finish -->
-
-
-
-
-
                 </div><!-- col-sm-6 Finish -->
-                
             </div>
             <div class="row">
-               
-                    <!-- box same-height headline Begin -->
-                    <h3 class="text-center">Products You Maybe Like</h3> <br>
-               
+                <!-- box same-height headline Begin -->
+                <h3 class="text-center">Products You Maybe Like</h3> <br>
+
                 <div class="col-md-3 col-sm-6 center-responsive">
                     <!-- col-md-3 col-sm-6 center-responsive Begin -->
                     <div class="product same-height">
@@ -219,7 +205,7 @@ include("includes/header.php");
 
                     </div><!-- product same-height Finish -->
                 </div><!-- col-md-3 col-sm-6 center-responsive Finish -->
-                </div>
+            </div>
 
 
 
